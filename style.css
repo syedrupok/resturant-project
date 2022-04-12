@@ -1,0 +1,82 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.main{
+    width: 100%;
+}
+
+nav{
+    width: 100%;
+    /* background-color: teal; */
+    height: 80px;
+    line-height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo a{
+    margin-left: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(254, 255, 255);
+    font-size: 20px;
+    transition: 0.5s all ease;
+}
+ul{
+    margin: 0px;
+    margin-right: 60px;
+}
+ul li{
+    float: left;
+    padding: 0px 15px;
+    list-style: none;
+}
+ul li a:hover{
+    color: #e93232;
+
+}
+.header{
+    background-image: url('bg1.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.content{
+    position: absolute;
+    top: 38%;
+    left: 25%;
+    transform: translate(-50% -50%);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.content h1{
+    font-size: 50px;
+}
+.content p{
+    padding: 0px 70px;
+    font-size: 20px;
+}
+button:hover{
+    color: white;
+    background: #e93232;
+}
+button{
+    background: none;
+    border: 1px solid white;
+    color: white;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 4px 15px;
+    border-radius: 6px;
+    transition: 0.7s all ease;
+}
+.overlay{
+    background: rgba(0, 0, 0,.3);
+    height: 100vh;
+
+}
